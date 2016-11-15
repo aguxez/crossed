@@ -12,7 +12,7 @@ startup_ext = ['commands.music']
 
 @bot.async_event
 def main():
-    yield from bot.login('MjQyNzEyNTY2NzUxNTU5Njgx.Cv-6kw.Ro6FBHxgCpl5SRQGkFkwZZu9jRc')
+    yield from bot.login('Your API Key')
     yield from bot.connect()
 
 
